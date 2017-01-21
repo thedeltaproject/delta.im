@@ -89,8 +89,7 @@ img {
 }
 
 .footer-icon:hover {
-	transform: rotate(-30deg);
-	transform: translate(-0.5rem);
+	transform: rotate(-30deg) translate(-0.5rem);
 }
 
 .footer-right {
