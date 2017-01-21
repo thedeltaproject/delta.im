@@ -131,5 +131,7 @@ dt {
 
 hr {
 	margin: 1rem 0;
-	border-color: #e9ebec;
+	border-color: #0000ff;
+	background-color: #00ff00;
+	color: #ff0000;
 }
