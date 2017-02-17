@@ -63,10 +63,6 @@ a {
 	text-decoration: none;
 }
 
-a[href*="wikipedia.org"]:before {
-	content: url(/img/wiki.svg);
-}
-
 a:hover {
 	text-decoration: underline;
 }
