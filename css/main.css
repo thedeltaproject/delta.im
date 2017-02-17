@@ -134,3 +134,12 @@ hr {
 	border-color: #e9ebec;
 	border-style: solid;
 }
+
+.wiki-icon {
+	height:1rem;
+}
+
+.no-bullet {
+	list-style-type: none;
+	padding: 0;
+}
