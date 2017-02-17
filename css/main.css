@@ -96,7 +96,7 @@ img {
 .license-icon {
 	height: 1rem;
 	float: left;
-	margin-right: 1rem;
+	margin: 0.75rem 1rem 0.75rem 0;
 }
 
 .footer-icon:hover {
