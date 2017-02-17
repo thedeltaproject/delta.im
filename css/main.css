@@ -135,8 +135,10 @@ hr {
 	border-style: solid;
 }
 
-.wiki-icon {
-	height:1.5rem;
+.bullet {
+	height:1rem;
+	float: left;
+	margin: 0.25rem 1.25rem 0.25rem 0.25rem;
 }
 
 .no-bullet {
