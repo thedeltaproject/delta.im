@@ -34,8 +34,16 @@ footer {
 	overflow: hidden;
 }
 
-footer > * {
-	margin: 0.5rem 0;
+footer * {
+	color: #ABB3AC;
+}
+
+footer > :first-child {
+	margin-left: 0;
+}
+
+footer > :last-child {
+	margin-right: 0;
 }
 
 .main-and-footer-container {
@@ -80,7 +88,13 @@ img {
 
 .footer-left {
 	float: left;
-	margin: 0.5rem 1rem 0.5rem 0;
+	margin: 0.5rem 0.3rem 0.5rem 0;
+}
+
+.license-icon {
+	height: 1rem;
+	float: left;
+	margin: 0.75rem 0.3rem 0.75rem 0;
 }
 
 .delta-icon {
@@ -93,14 +107,8 @@ img {
 	transition: all .4s;
 }
 
-.license-icon {
-	height: 1rem;
-	float: left;
-	margin: 0.75rem 0.5rem 0.75rem 0;
-}
-
 .license-icon path {
-	fill:#bbb;
+	fill:#ABB3AC; /* CC official */
 }
 
 .footer-icon:hover {
@@ -109,7 +117,7 @@ img {
 
 .footer-right {
 	float: right;
-	margin-left: 1rem;
+	margin: 0.5rem 0 0.5rem 1rem;
 }
 
 pre {
