@@ -34,7 +34,7 @@ footer {
 	overflow: hidden;
 }
 
-footer * {
+footer > * {
 	margin: 0.5rem 0;
 }
 
@@ -83,7 +83,7 @@ img {
 	margin-right: 1rem;
 }
 
-.footer-icon {
+.delta-icon {
 	height:2.5rem;
 	position:absolute;
 	left:50%;
@@ -91,6 +91,12 @@ img {
 	enable-background:new 0 0 1000 1000;
 	fill:#cccccc;
 	transition: all .4s;
+}
+
+.license-icon {
+	height: 1rem;
+	float: left;
+	margin-right: 1rem;
 }
 
 .footer-icon:hover {
