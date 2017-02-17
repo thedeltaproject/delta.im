@@ -35,7 +35,7 @@ footer {
 }
 
 footer * {
-	color: #ABB3AC;
+	color: #ABB3AC !important;
 }
 
 footer > :first-child {
@@ -111,7 +111,7 @@ img {
 	fill:#ABB3AC; /* CC official */
 }
 
-.footer-icon:hover {
+.delta-icon:hover {
 	transform: rotate(-37.5deg) translate(-0.195rem, -0.023rem);
 }
 
