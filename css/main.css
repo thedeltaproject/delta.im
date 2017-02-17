@@ -89,14 +89,18 @@ img {
 	left:50%;
 	margin: 0 0 0 -1rem;
 	enable-background:new 0 0 1000 1000;
-	fill:#cccccc;
+	fill:#ccc;
 	transition: all .4s;
 }
 
 .license-icon {
 	height: 1rem;
 	float: left;
-	margin: 0.75rem 1rem 0.75rem 0;
+	margin: 0.75rem 0.5rem 0.75rem 0;
+}
+
+.license-icon path {
+	fill:#bbb;
 }
 
 .footer-icon:hover {
