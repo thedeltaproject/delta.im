@@ -19,11 +19,11 @@ main {
 	margin-bottom: 2rem;
 }
 
-main :first-child {
+main > :first-child {
 	margin-top: 0;
 }
 
-main :last-child {
+main > :last-child {
 	margin-bottom: 0;
 }
 
@@ -138,7 +138,7 @@ hr {
 .bullet {
 	height:1rem;
 	float: left;
-	margin: 0.25rem 1.25rem 0.25rem 0.25rem;
+	margin: 0.25rem 0.25rem 0.25rem 1.25rem;
 }
 
 .no-bullet {
