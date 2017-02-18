@@ -91,6 +91,11 @@ img {
 	margin: 0.5rem 0.3rem 0.5rem 0;
 }
 
+.footer-right {
+	float: right;
+	margin: 0.5rem 0 0.5rem 1rem;
+}
+
 .license-icon {
 	height: 1rem;
 	float: left;
@@ -98,7 +103,7 @@ img {
 }
 
 .delta-icon {
-	height:2.5rem;
+	height:2rem;
 	position:absolute;
 	left:50%;
 	margin: 0 0 0 -1rem;
@@ -107,12 +112,7 @@ img {
 }
 
 .delta-icon:hover {
-	transform: rotate(-37.5deg) translate(-0.195rem, -0.023rem);
-}
-
-.footer-right {
-	float: right;
-	margin: 0.5rem 0 0.5rem 1rem;
+	transform: rotate(-30deg) translate(-0.3rem, -0.25rem);
 }
 
 pre {
