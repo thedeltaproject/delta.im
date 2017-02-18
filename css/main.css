@@ -111,7 +111,7 @@ img {
 	transition: all .4s;
 }
 
-.delta-icon:hover {
+.delta-footer:hover {
 	transform: rotate(-30deg) translate(-0.3rem, -0.25rem);
 }
 
