@@ -53,6 +53,7 @@ footer > :last-child {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	color: #2d89ef;
+	line-height: 1.2;
 }
 
 h1, h2 {
