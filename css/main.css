@@ -101,27 +101,6 @@ h1, h2 {
 	margin: 2rem 0 1rem 0;
 }
 
-h1 .inline-img {
-	position: relative;
-	height:1.5rem;
-	top: -0.4rem;
-	left: -0.3rem;
-}
-
-h2 .inline-img {
-	position: relative;
-	height:1.1rem;
-	top: -0.3rem;
-	left: -0.2rem;
-}
-
-h3 .inline-img {
-	position: relative;
-	height:1rem;
-	top: -0.2rem;
-	left: -0.2rem;
-}
-
 a {
 	color: #2d89ef;
 	text-decoration: none;
@@ -131,31 +110,55 @@ a:hover {
 	text-decoration: underline;
 }
 
+h1 > a {
+	color: #000;
+	text-decoration: none;
+}
+
+h1 > a:hover {
+	text-decoration: none;
+}
+
+h1 > a:after,
 p > a:after {
-	background-image: url('/img/delta_bullet.svg');
-	background-size: 1rem 1rem;
 	display: inline-block;
-	width: 1rem;
-	height: 1rem;
 	content:"";
+	position: relative;
 }
 
-p > a[href*="//"]:after {
+p > a:after {
+	background-size: 1rem 1rem;
+	width: 1rem;
+	height: 1rem;
+}
+
+h1 > a:after {
+	background-size: 1.5rem 1.5rem;
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+p > a:not([href*="//"]):after {
+	background-image: url('/img/delta_small_blue.svg');
+	top: 0.15rem;
+}
+
+p > a[href*="//"]:not([href*="wikipedia.org"]):after {
 	background-image: url('/img/out.svg');
-	background-size: 1rem 1rem;
-	display: inline-block;
-	width: 1rem;
-	height: 1rem;
-	content:"";
+	top: 0.1rem;
+	left: 0.1rem;
 }
 
-p > a[href*="wikipedia.org"]:after {
+p > a[href*="//"][href*="wikipedia.org"]:after {
+	background-image: url('/img/wiki_blue.svg');
+	top: 0.2rem;
+	left: 0.1rem;
+}
+
+h1 > a[href*="//"][href*="wikipedia.org"]:after {
 	background-image: url('/img/wiki.svg');
-	background-size: 1rem 1rem;
-	display: inline-block;
-	width: 1rem;
-	height: 1rem;
-	content:"";
+	top: -0.4rem;
+	left: -0.1rem;
 }
 
 footer > a {
