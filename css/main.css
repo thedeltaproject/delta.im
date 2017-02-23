@@ -85,7 +85,6 @@ footer > :last-child {
 	transform: rotate(-30deg) translate(-0.3rem, -0.25rem);
 }
 
-
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	color: #000;
@@ -100,6 +99,27 @@ h1, h3, h4, h5, h6 {
 h1, h2 {
 	border-bottom: 1px solid #aaa;
 	margin: 2rem 0 1rem 0;
+}
+
+h1 .inline-img {
+	position: relative;
+	height:1.5rem;
+	top: -0.4rem;
+	left: -0.3rem;
+}
+
+h2 .inline-img {
+	position: relative;
+	height:1.1rem;
+	top: -0.3rem;
+	left: -0.2rem;
+}
+
+h3 .inline-img {
+	position: relative;
+	height:1rem;
+	top: -0.2rem;
+	left: -0.2rem;
 }
 
 a {
