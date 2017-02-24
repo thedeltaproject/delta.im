@@ -223,21 +223,31 @@ b {
 	color: #000;
 }
 
-d1, d2, d3 {
+ol, ul {
+	padding-left: inherit;
+}
+
+d1, d2, d3, d4, d5, d6 {
 	display: block;
-	margin: 0.5rem 0 0 0;
-	padding: 0 0 0 0.8rem;
+	margin: 0.6rem 0 0 0;
+	padding: 0 0 0 1rem;
 	border-left: 2px solid #ccc;
 }
 
 d1 > :first-child,
 d2 > :first-child,
-d3 > :first-child {
+d3 > :first-child,
+d4 > :first-child,
+d5 > :first-child,
+d6 > :first-child {
 	margin-top: 0;
 }
 
 d1 > :last-child,
 d2 > :last-child,
-d3 > :last-child {
+d3 > :last-child,
+d4 > :last-child,
+d5 > :last-child,
+d6 > :last-child {
 	margin-bottom: 0;
 }
