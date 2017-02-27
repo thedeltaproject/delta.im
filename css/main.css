@@ -16,7 +16,6 @@ header {
 	font-weight: bold;
 	font-size: 5rem;
 	padding: 5rem;
-	color: white;
 }
 
 .page-header {
@@ -60,20 +59,16 @@ footer > :last-child {
 	margin-right: 0;
 }
 
-.footer-left {
+.float-left {
 	float: left;
-	margin: 0.25rem 0.3rem 0.25rem 0;
 }
 
-.footer-right {
+.float-right {
 	float: right;
-	margin: 0.25rem 0 0.25rem 1rem;
 }
 
-.license-icon {
-	height: 1rem;
-	float: left;
-	margin: 0.5rem 0.3rem 0.5rem 0;
+.footer-text {
+	margin: 0.25rem 1rem;
 }
 
 .delta-footer {
@@ -86,7 +81,7 @@ footer > :last-child {
 }
 
 .delta-footer:hover {
-	transform: rotate(-30deg) translate(-0.3rem, -0.25rem);
+	transform: translate(-0.3rem, -0.25rem) rotate(-30deg);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -153,7 +148,7 @@ li > a[href*="//"][href*="wikipedia.org"]:after {
 }
 
 footer > a {
-	color: #666;
+	color: #333;
 }
 
 blockquote {
