@@ -151,13 +151,6 @@ footer > a {
 	color: #333;
 }
 
-blockquote {
-	margin-left: 0;
-	padding: 0 1rem;
-	color: #819198;
-	border-left: 0.3rem solid #dce6f0;
-}
-
 img {
 	max-width: 100%;
 }
@@ -183,6 +176,7 @@ table {
 
 iframe {
 	margin: 0.6rem 0 0 0;
+	display: block;
 }
 
 th, td {
@@ -214,7 +208,7 @@ d1, d2, d3, d4, d5, d6 {
 	display: block;
 	margin: 0.6rem 0 0 0;
 	padding: 0 0 0 1rem;
-	border-left: 2px solid #ccc;
+	box-shadow: 2px 0 0 #ccc inset;
 }
 
 d1 > :first-child,
