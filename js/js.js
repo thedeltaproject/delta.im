@@ -18,6 +18,11 @@ var modalNext = document.getElementById('modal-next');
 modalImg.onclick = function() {
   modal.style.display = 'none';
 }
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
 
 // Single images
 var zoomImgList = document.getElementsByClassName('zoom-img');
