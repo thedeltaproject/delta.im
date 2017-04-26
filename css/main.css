@@ -263,8 +263,7 @@ gallery > img,
 .zoom-img {
 	cursor: zoom-in;
 	margin: 0.5rem;
-	max-height: 22rem;
-	height: auto;
+	height: 22rem;
 	outline: #222 solid 1rem;
 	position: relative;
 }
