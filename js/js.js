@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 // Visible width and height
 // var viewportWidth = window.innerWidth;
@@ -20,7 +20,7 @@ modalImg.onclick = function() {
 }
 window.onclick = function(event) {
     if (event.target == modal) {
-        modal.style.display = "none";
+        modal.style.display = 'none';
     }
 }
 
@@ -82,7 +82,18 @@ modalPrev.onclick = function(){
 modalNext.onclick = function(){
   scrollSlides(+1);
 }
-
+document.onkeydown = function(e) {
+  if (modal.style.display != 'none') {
+    switch (e.keyCode) {
+      case 37:
+        scrollSlides(-1);
+        break;
+      case 39:
+        scrollSlides(+1);
+        break;
+    }
+  }
+};
 // ###################################################
 // ###################################################
 // ###################################################
