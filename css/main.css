@@ -259,10 +259,12 @@ gallery {
 	margin: 2.1rem auto;
 }
 
+gallery > img,
 .zoom-img {
 	cursor: zoom-in;
 	margin: 0.5rem;
-	height: 22rem;
+	max-height: 22rem;
+	height: auto;
 	outline: #222 solid 1rem;
 	position: relative;
 }
@@ -322,4 +324,28 @@ gallery {
 
 .disclaimer-heading {
 	font-weight: bold;
+}
+
+#modal-prev,
+#modal-next {
+	cursor: pointer;
+  position: absolute;
+	top: calc(50% - 1.7rem);
+  padding: 0.5rem;
+	font-size: 4rem;
+  color: white;
+  font-weight: bold;
+}
+
+#modal-prev:hover,
+#modal-next:hover {
+	text-decoration: none;
+}
+
+#modal-prev {
+  left: 0;
+}
+
+#modal-next {
+  right: 0;
 }
